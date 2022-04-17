@@ -7,6 +7,7 @@ const sumAll = function(firstInt, secondInt) {
     for (let i = firstInt; i < secondInt + 1; i++) {
         sum += i;
     }
+    return sum;
 };
 
 // Do not edit below this line
