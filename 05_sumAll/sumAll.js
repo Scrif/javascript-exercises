@@ -2,7 +2,9 @@ const sumAll = function(firstInt, secondInt) {
     if (!Number.isInteger(firstInt) || !Number.isInteger(secondInt)) return "ERROR";
     if (firstInt < 0 || secondInt <0) return "ERROR";
     if (firstInt > secondInt) {
-        
+        const tempInt = firstInt;
+        firstInt = secondInt;
+        secondInt = tempInt;
     }
 
     let sum = 0;
