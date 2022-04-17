@@ -7,7 +7,7 @@ describe('ftoc', () => {
   test.skip('rounds to 1 decimal', () => {
     expect(ftoc(100)).toEqual(37.8);
   });
-  test.skip('works with negatives', () => {
+  test('works with negatives', () => {
     expect(ftoc(-100)).toEqual(-73.3);
   });
 });
