@@ -1,5 +1,5 @@
-const leapYears = function() {
-
+const leapYears = function(year) {
+    year % 4 === 0
 };
 
 // Do not edit below this line
