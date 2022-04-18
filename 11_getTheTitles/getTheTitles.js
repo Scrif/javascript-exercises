@@ -1,5 +1,5 @@
 const getTheTitles = function(array) {
-    return array.map(book => book.Title)
+    return array.map(book => book.title)
 };
 
 // Do not edit below this line
