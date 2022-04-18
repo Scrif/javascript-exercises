@@ -1,4 +1,5 @@
 const fibonacci = function(integer) {
+    if (integer < 0) return "OOPS";
     let a = 0;
     let b = 1;
     for (let i = 1; i < integer; i++) {
