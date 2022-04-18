@@ -1,5 +1,9 @@
 const findTheOldest = function(array) {
-    return array.reduce()
+    return array.reduce(oldest, currentValue) => {
+        
+
+
+    }
 };
 
 // Do not edit below this line
